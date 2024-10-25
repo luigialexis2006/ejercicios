@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+
+.menu-ejer2{
+    list-style: none;
+    padding: 0%;
+    width: 350px;
+}
+
+.menu-ejer2 li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(205, 204, 204);
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+}
+
+
+
+.menu-ejer2 li a {
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.menu-ejer2 li a:hover {
+    background-color: #999;
+}
+
+

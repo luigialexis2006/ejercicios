@@ -1,0 +1,17 @@
+body{
+    margin: 180px 550px 180px 550px;
+    background-color: rgb(198, 198, 198);
+    font-family: arial, sans-serif;
+}
+
+div{
+    background-color: rgb(184, 184, 184);
+    padding: 3px 8px 10px 8px;
+    display: block;
+
+}
+
+p{
+    font-size: 20px;
+    
+}

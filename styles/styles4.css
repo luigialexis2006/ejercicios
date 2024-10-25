@@ -1,0 +1,16 @@
+body{
+    display: grid;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 10px));
+    gap: 10px;
+    
+}
+
+.galeria img {
+    width: 500px;
+    border-radius: 10px;
+}
+  

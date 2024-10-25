@@ -1,0 +1,59 @@
+body{
+    margin: 180px 550px 180px 550px;
+    background-color: aqua;
+    font-family: arial, sans-serif;
+    grid-template-columns: auto 1fr auto;
+    display: grid;
+}
+
+div header{
+    background-color: rgb(244, 85, 85);
+    padding: 40px 10px 40px 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 2%;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+div main{
+    display: grid;
+    height: 100%;
+    
+
+}
+
+div{
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    margin: 5px;
+    height: 300px;
+    box-shadow: 0 2px 5px black ;
+}
+
+div main nav, footer{
+    background-color: white;
+}
+
+div footer {
+    text-align: center;
+    box-shadow: 0 2px 5px black ;
+}
+
+div footer button{
+    width: 120px;
+    height: 30px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px black ;
+}
+
+div main nav p{
+    text-align: center;
+    margin-top: 20px;
+    
+    
+    
+}
+
+
+

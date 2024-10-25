@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+  
+header {
+    padding: 19px;
+    background-color: #fff;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+  
+.logo {
+    height: 40px;
+}
+  
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+  
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+  
+.lenguaje a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #777;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+  
+.lenguaje:hover {
+    background-color: #555;
+}
+
